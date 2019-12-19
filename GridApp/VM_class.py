@@ -10,11 +10,11 @@ import time
 import json
 import threading
 
-SUBSCRIPTION_ID = 'b827c54a-3a19-44c9-8607-afe1c54a3dd9'
-CLIENT_ID = "94c994a4-8bdb-4f3e-a471-a444a9ae7b1b"
-TENANT = "29cc1da3-8895-4339-ba0b-26caf511b393"
-OBJECT_ID = "fbf2dd11-53d7-4ef5-a540-d616d4b16d01"
-SECRET = "?:4E?nlV7E_5VqJtMoFgp46aRM.]]nqb"
+SUBSCRIPTION_ID = ''
+CLIENT_ID = ""
+TENANT = ""
+OBJECT_ID = ""
+SECRET = ""
 
 def send_task(host, n, m, seed, customer):
     host = host
